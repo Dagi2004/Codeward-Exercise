@@ -20,8 +20,8 @@
 function abbrevName(name){
 
 let convertedName = name.split(" ")
-let firsLetter = convertedName[0].charAt(0)
-let secondLetter = convertedName[1].charAt(0)
+let firsLetter = convertedName[0].toUpperCase().charAt(0)
+let secondLetter = convertedName[1].toUpperCase().charAt(0)
 
 return firsLetter +"."+secondLetter
 }
